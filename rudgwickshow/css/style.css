@@ -1,0 +1,26 @@
+/* my custom styling mobile first: */
+header {
+   background-color: #ccc;
+}
+footer {
+   background-color: #ccc;
+}
+h1, p {
+   padding: 0 1rem;
+}
+.jumbotron {
+   background-image: url(#); 
+   background-size: cover;
+   border-radius: 0%;
+}  
+.img-half {
+   width: 24%;
+}
+footer p {
+  padding-top: .5rem;
+}
+
+   @media screen and (min-width: 600px){
+   
+}
+
