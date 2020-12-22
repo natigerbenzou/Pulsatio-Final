@@ -1,26 +1,31 @@
 /* my custom styling mobile first: */
-header {
-   background-color: #ccc;
-}
-footer {
-   background-color: #ccc;
-}
-h1, p {
-   padding: 0 1rem;
-}
+header {background-color: #ccc;}
+
+footer {background-color: #ccc;}
+
+h1, p {padding: 0 1rem;}
+
 .jumbotron {
    background-image: url(#); 
    background-size: cover;
    border-radius: 0%;
-}  
-.img-half {
-   width: 24%;
-}
-footer p {
-  padding-top: .5rem;
 }
 
-   @media screen and (min-width: 600px){
-   
+footer p {padding-top: .5rem;}
+
+/*------–---Custom Mobile--–------–------–------–------–--*/
+img {
+   width: calc(140px + 1vw);
+   display: inline-block;
+   height: auto;
 }
+#nav-mobile {background-color: #c7caa5ac!important;}
+
+
+
+
+
+
+
+@media screen and (min-width: 600px){}
 
